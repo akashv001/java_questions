@@ -32,6 +32,35 @@ public class string_basics {
 		
 		System.out.println(str.concat(s2));
 		
+		// indexOf demo
+		System.out.println(str.indexOf("el"));
+		System.out.println(str.indexOf("El"));
+		
+		// startsWith demo
+		   System.out.println(str.startsWith("Hel"));
+           System.out.println(str.startsWith("el"));
+           System.out.println(str.startsWith("El"));
+           
+           System.out.println("_________________________");
+           // == and equals demo
+           String a1="hello";
+           String a2;
+           a2=a1;
+           String a3="hello";
+           String a4;
+           a4= new String("hello");
+           
+           System.out.println((a1==a2)+" , "+a1.equals(a2));
+           System.out.println((a1==a3)+" , "+a1.equals(a3));
+           System.out.println((a1==a4)+" , "+a1.equals(a4));
+           
+           
+           
+           
+           
+		
+		
+		
 		
 		
 		
